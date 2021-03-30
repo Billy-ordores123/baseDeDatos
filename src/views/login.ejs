@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <%- include ('partials/head') %>
+    
+</head>
+<body class="login">
+    
+    <div class="login-box">
+                    <h1 class="login-title">
+                        <span class=""></span>Login
+                    </h1>
+                   
+                    <form action="/login" method="post">
+                        <div class="form-group">
+                            <!-- <label for="email">Email</label> -->
+                            <input type="email" name="email" class="login-input" placeholder="Email">
+                        </div>
+                        <div class="from-group">
+                            <!-- <label for="password">Password</label> -->
+                            <input type="password" name="password" class="login-input" placeholder="Password">
+
+                        </div>
+                        <input type="submit" class="login-submit">
+
+                    </form>
+
+                    <hr>
+                    <div class="login-text">
+                        <p>Need an account <a href="/signup" class="login-a"> Signup</a></p>
+                        <p>Or go <a href="/" class="login-a">Home</a></p>
+
+                    </div>       
+    </div>
+</body>
+</html>

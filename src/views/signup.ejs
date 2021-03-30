@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <%- include ('partials/head') %>
+</head>
+<body class="signup">
+    
+    <div class="signup-box">
+                    <h1 class="signup-title">
+                        <span class="fa fa-sign-in"></span>Signup
+                    </h1>
+                   
+                    <form action="/signup" method="post">
+                        <div class="signup-input">
+                            <input type="email" name="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="signup-input">
+                            
+                            <input type="password" name="password" class="form-control" placeholder="Password">
+
+                        </div>
+                        <input type="submit" class="signup-submit">
+
+                    </form>
+
+                    <hr>
+                    <div class="signup-text">
+                        <p>Need an account <a href="/login" class="signup-a">Login</a></p>
+                        <p>Or go <a href="/" class="signup-a">Home</a></p>
+
+                    </div>
+               
+    </div>
+</body>
+</html>

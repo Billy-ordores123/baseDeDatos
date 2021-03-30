@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.V</title>
+    <link rel="shortcut icon" href="vi.jpg">
+    <link rel="stylesheet" type="text/css"  href="/css/stylesAV.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet"/>
+
+</head>
+<body>
+  <div class="container2">
+    
+    
+    <div class="cont1">
+      <p><a class="option" href="/chistes">Joke</a></p>
+      <p><a class="option" href="/A.V"> A.V</a></p>
+      <p><a class="option" href="profile">User</a></p>
+      <p><a class="option" href="/logout"> Exit</a></p> 
+    </div>
+    <div class="cont2">
+      <input type="text" placeholder="Nombre" id="name">
+      <button class="sumit" onclick="save()">save</button>
+      <div id="container"></div>
+    </div>
+    
+
+  </div>
+  <h1 class="ti1">Fondo Color</h1>
+  <div class="row" >
+    <div class="col-md-3 col-md-offset-9 text-right">
+        <div class="btn" role="group">
+            <button id="color1" class="btn btn-default w-100" type="button" onclick="cambioA()"><span class="glyphicon glyphicon-step-backward" ></span>&nbsp;Azul</button>
+            <button class="btn btn-default w-100" type="button" onclick="cambioR()">Rojo&nbsp;<span class="glyphicon glyphicon-step-forward"></span></button>
+            <button class="btn btn-default w-100" type="button" onclick="cambioV()">Verde&nbsp;<span class="glyphicon glyphicon-step-forward"></span></button>
+            <button class="btn btn-default w-100" type="button" onclick="cambioAm()">Amarillo&nbsp;<span class="glyphicon glyphicon-step-forward"></span></button>
+            <button class="btn btn-default w-100" type="button" onclick="cambioN()">Normal&nbsp;<span class="glyphicon glyphicon-step-forward"></span></button>
+
+
+        </div>
+    </div>
+</div>
+  
+  
+
+ 
+  <div>
+    <h1 class="au1">Mi Audio</h1>
+    <div class="audioprimero">
+      <audio class="audio1" controls>
+        <source src="/Audio/KAROL-G_-Anuel-AA_-J.-Balvin-LOCATION.mp3">
+      </audio>
+      <audio class="audio1" controls>
+        <source src="/Audio/Mi-pan-su-su-sum-version-_CUMBIA_.mp3">
+      </audio>
+
+    </div>
+  
+  </div>
+  
+  <h1 class="vi1">Mi video</h1>
+  <div class="videos">
+    <video class="vi" id="vi1" width="320" height="240"  onmouseout="end1()" onmouseover="init1()" controls>
+      <source src="Videos/el-muchacho-de-ojos-triste.mp4" type="video/mp4">
+     </video>
+     <video class="vi" id="vi2" width="320" height="240"  onmouseout="end2()" onmouseover="init2()" controls>
+      <source src="Videos/gordo-bailando-meme.mp4" type="video/mp4">
+     </video>
+     <video class="vi" id="vi3" width="320" height="240"  onmouseout="end3()" onmouseover="init3()" controls>
+      <source src="Videos/memes-bailando-con-cancion-de-fondoferluzman.mp4" type="video/mp4">
+     </video>
+     <video class="vi" id="vi4" width="320" height="240" onmouseout="end4()" onmouseover="init4()" controls>
+      <source src="Videos/glue70-casin-meme-remix.mp4" type="video/mp4">
+     </video>
+     <video class="vi" id="vi5" width="320" height="240" onmouseout="end5()" onmouseover="init5()" controls>
+      <source src="Videos/polish-cow-30-seconds.mp4" type="video/mp4">
+     </video>
+     <video class="vi" id="vi6" width="320" height="240" onmouseout="end6()" onmouseover="init6()" controls>
+      <source src="Videos/knuckles-bailando-glue70-casin-meme.mp4" type="video/mp4">
+     </video>
+  </div>
+  
+  <script src="/scripts/scrip.js"></script>
+</body>
+</html>

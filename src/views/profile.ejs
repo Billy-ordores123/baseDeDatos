@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <%- include ('partials/head') %>
+</head>
+<body class="profile">
+    <div class="container">
+        <header class="text-center">
+
+            <h1 class="profile-title">Profile</h1>
+            <div class="profile-container1">
+            <a class="profile-option" href="/chistes">Joke</a>
+            <a class="profile-option" href="/A.V"> A.V</a>
+            <a class="profile-option" href="profile">User</a>
+            <a href="/logout" class="profile-option">Exit</a>
+            
+            </div>
+            
+            
+        </header>
+    </div>
+    <hr>
+    <div class="profile-box">
+        
+                    <h3 class="">
+                        <span class=""></span>Local
+                    </h3>
+                    <p>
+                        <strong class="profile-text">Id</strong>:<%= user._id%> <br>
+                        <strong class="profile-text">Email</strong>:<%= user.local.email %> <br>
+                        <strong class="profile-text">Password</strong>:<%= user.local.password %> <br>
+                    </p>
+
+    </div>
+</body>
+</html>

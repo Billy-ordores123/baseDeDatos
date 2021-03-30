@@ -1,0 +1,224 @@
+/*PARTE DE INDEX.EJS*/
+.index{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-radial-gradient(#560e86, #0a0011);
+}
+.box1{
+    width: 400px;
+    padding-bottom: 200px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #83137d ;
+    text-align: center;
+    border-radius: 24px;
+    margin-bottom: 20px;
+    height: 300px;
+
+}
+.box1 h1{
+    color: rgb(238, 144, 238);
+    text-transform: uppercase ;
+    font-weight: 300 ;
+    padding-bottom: 20px;
+}
+.box1 .sumit1{
+    border: 0;
+    background: #a945c7;
+    display: block;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7 ;
+    margin: 10px;
+    margin-top: 10px;
+    text-align: center;
+    border:2px solid pink;
+    padding: 14px 20px;
+    outline: none;
+    color: pink;
+    border-radius: 24px;
+    transition: 0.25s;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.container1{
+    display: block;
+}
+.index-cruck{
+    padding-top: 30px;
+    padding-left: 300px;
+    color: rgb(238, 144, 238);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+/*parte de LOGIN*/
+.login{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-radial-gradient(#87e022, #a0720d);
+}
+.login-title{
+    color: rgb(107, 237, 241);
+    text-transform: uppercase ;
+    font-weight: 50;
+}
+.login-box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #065d6d ;
+    text-align: center;
+    border-radius: 24px;  
+}
+.login-box form input[type="email"],.login-box form input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:2px solid #81e9e0;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(131, 229, 233);
+    border-radius: 24px;
+    transition: 0.25s;
+}   
+.login-submit{
+    border: 0;
+    background: #3b99a0;
+    display: block;
+    box-shadow: 0 0 10px #95e9ec, 0 0 40px #478ae2, 0 0 80px #7078ec ;
+    margin: 20px auto;
+    text-align: center;
+    border:2px solid rgb(154, 217, 219);
+    padding: 14px 40px;
+    outline: none;
+    color: rgb(204, 248, 242);
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.login-text{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(120, 139, 224);
+}
+.login-a{
+    text-decoration: none;    
+    color: rgb(157, 239, 241);
+
+}
+/*parte de SIGNUP*/
+.signup{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-radial-gradient(#e9f084, #e29779);
+}
+.signup-box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #af8d90c5 ;
+    text-align: center;
+    border-radius: 24px;  
+}
+.signup-title{
+    color: rgba(56, 50, 29, 0.911);
+    text-transform: uppercase ;
+    font-weight: 50;
+}
+.signup-box form input[type="email"],.signup-box form input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:2px solid #64533a;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(44, 39, 32);
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.signup-submit{
+    border: 0;
+    background: #bba976;
+    display: block;
+    box-shadow: 0 0 10px #8d734c, 0 0 40px #cab16c, 0 0 80px #7078ec ;
+    margin: 20px auto;
+    text-align: center;
+    border:2px solid #64533a;
+    padding: 14px 40px;
+    outline: none;
+    color:  rgb(59, 58, 56);
+    border-radius: 24px;
+    transition: 0.25s;
+} 
+.signup-text{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(107, 96, 56, 0.911);
+}
+.signup-a{
+    text-decoration: none;    
+    color: rgba(34, 31, 19, 0.911);
+}
+/*parte de PROFILE*/
+.profile{
+    min-height: 100vh;
+    
+    justify-content: center;
+    align-items: center;
+    background: -webkit-radial-gradient(#560e86, #0a0011);
+}
+.profile-box{
+    width: 600px;
+    padding: 40px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    display: block;
+    transform: translate(-50%, -50%);
+    background: #af8d90c5 ;
+    border-radius: 24px; 
+}
+.profile-text{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(247, 246, 242, 0.911);
+
+}
+.profile-option{
+    text-decoration: none;
+    margin: 10px;
+    color:  rgb(238, 144, 238);
+    font-size: 18px;
+}
+.profile-container1{
+    display: inline;
+    margin-left: 370px;
+    
+}
+.profile-title{
+    color: rgba(238, 227, 189, 0.911);
+    text-transform: uppercase ;
+    font-weight: 50;
+    text-align: center;
+}
